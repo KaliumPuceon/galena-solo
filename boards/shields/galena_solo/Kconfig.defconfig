@@ -1,0 +1,6 @@
+if SHIELD_GALENA_SOLO
+
+config ZMK_KEYBOARD_NAME
+    default "galena-solo"
+
+endif # SHIELD_GALENA_SOLO
