@@ -12,8 +12,11 @@
 
         default_layer {
             bindings = <
-                &kp A &kp B
-                &kp C &kp D
+               &kp TILDE      &kp NUMBER_1 &kp  &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp HOME
+               &kp TAB        &kp Q &kp  &kp W &kp E &kp R &kp T &kp END
+               &kp ESCAPE     &kp A &kp  &kp S &kp D &kp F &kp G &kp PG_UP
+               &kp LEFT_SHIFT &kp Z &kp  &kp X &kp C &kp V &kp B &kp PAGE_DOWN
+               &kp LCTRL      &kp LWIN &kp  &kp LEFT_ALT&mo1 &kp X &kp BSPC &kp SPACE
             >;
         };
     };

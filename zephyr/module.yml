@@ -1,3 +1,4 @@
+name: zmk-keyboard-galena-solo
 build:
   settings:
     board_root: .
